@@ -15,3 +15,6 @@ fruits.pop(2)
 print(fruits)
 fruits.clear()
 print(fruits)
+
+sports=["cricket","football","hockey","basketball"]
+print("The first two elements are",sports[:2])
