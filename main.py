@@ -1,0 +1,17 @@
+#Write a Python program to create a Python list of your favorite fruits (minimum 5). Then perform the following operations on it.
+fruits=["apple","banana","mango","kiwi","grapes"]
+print(len(fruits))
+print("the element in the list is",fruits[0])
+print("The last element in the list is",fruits[-1])
+fruits.append("pear")
+print(fruits)
+fruits.remove("banana")
+print(fruits)
+fruits.sort()
+print(fruits)
+fruits.reverse()
+print(fruits)
+fruits.pop(2)
+print(fruits)
+fruits.clear()
+print(fruits)
